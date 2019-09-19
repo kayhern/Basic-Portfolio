@@ -1,7 +1,9 @@
 body {
     background-image: url("light_grey.png");
     font-family: Arial, Helvetica, sans-serif;
-    color: #777777;  
+    color: #777777;
+    max-width: 960px;
+    margin: auto;
 }
 
 h1 {
@@ -46,15 +48,17 @@ div {
 }
 
 footer {
-    border-color: #4aaaa5;
     background-color: #666666;
     color: #ffffff;
     text-align: center; 
-
+    padding-top: 50px;
+    margin-top: 100px;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 10px;
 }
 
 form {
     background-color: #ffffff;
     border-color: #dddddd;
-
 }
