@@ -9,11 +9,12 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #4aaaa5;
     color: #ffffff;
-    width: 38%;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    padding-right: 15px;
-    padding-left: 15px;
+    width: 400px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 375px;
 }
 
 h2 {
@@ -26,9 +27,15 @@ h2 {
     background-color: #ffffff;
     float: right;
     text-decoration: none;
+    text-align: center;
     color: #777777;
     border-color: #cccccc;
     margin-top: 10px;
+    margin-right: 20px;
+    padding-right: 10px;
+    border-color: #ffffff;
+    border-top: 100px;
+    overflow: hidden;
 }
 
 .top-nav a {
@@ -69,6 +76,9 @@ footer {
     border-top-style: solid;
     border-top-color: #4aaaa5;
     border-top-width: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 form {
