@@ -114,6 +114,12 @@ section {
     padding-bottom: 20px;
 }
 
+span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: #4aaaa5;
+    display: inline-block;
+}
+
 .games {
     width: 200px;
     height: 150px;
