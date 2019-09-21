@@ -25,6 +25,7 @@ header {
     position: fixed;
     color: #777777;
     box-shadow: 0 4px 2px -2px;
+    object-position: fixed;
 }
 
 hr {
@@ -73,14 +74,6 @@ nav a:hover {
     border-color: #dddddd;
 }
 
-section {
-    border-color: #dddddd;
-    background-color: #ffffff;
-    max-width: 960px;
-    margin: auto;
-    position: relative;
-}
-
 .wrap {
     float: left;
     margin: 10px;
@@ -100,6 +93,16 @@ footer {
     width: 100%;
 }
 
+.message {
+    border: 2px solid;
+    padding: 20px;
+    width: 600px;
+    height: 300px;
+    border-color: #dddddd;
+    resize: both;
+    overflow: auto;
+}
+
 form {
     background-color: #ffffff;
     border-color: #dddddd;
@@ -111,4 +114,12 @@ form {
 button {
     color: #ffffff;
     background-color: #4aaaa5;
+}
+
+section {
+    border-color: #dddddd;
+    background-color: #ffffff;
+    max-width: 960px;
+    margin: auto;
+    position: relative;
 }
