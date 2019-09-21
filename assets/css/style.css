@@ -10,7 +10,7 @@ a.Kristen {
     background-color: #4aaaa5;
     color: #ffffff;
     width: 300px;
-    margin-left: 21%;
+    margin-left: 42%;
     padding-left: 20px;
     padding-right: 30px;
     padding-bottom: 20px;
@@ -27,9 +27,15 @@ header {
     box-shadow: 0 4px 2px -2px;
 }
 
+hr {
+    color: #dddddd;
+}
+
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
 nav {
@@ -38,6 +44,7 @@ nav {
     text-decoration: none;
     text-align: right;
     width: 100%;
+    padding-right: 21%;
 }
 
 nav a {
@@ -96,4 +103,12 @@ footer {
 form {
     background-color: #ffffff;
     border-color: #dddddd;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+button {
+    color: #ffffff;
+    background-color: #4aaaa5;
 }
